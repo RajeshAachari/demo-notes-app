@@ -9,5 +9,5 @@ COPY . /app/backend
 
 EXPOSE 9000
 
-CMD python /app/backend/manage.py runserver 0.0.0.0:8000
+CMD python /app/backend/manage.py runserver 0.0.0.0:9000
 #new
