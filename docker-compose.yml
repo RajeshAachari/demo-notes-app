@@ -1,7 +1,7 @@
 version : "3.3"
 services :
   web :
-    image : "django-notes-app:latest"
+    image : "demo-notes-app:latest"
     ports :
       - "8000-8001:8000"
   db :
